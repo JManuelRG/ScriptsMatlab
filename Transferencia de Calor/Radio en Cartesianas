@@ -1,0 +1,26 @@
+%% Graficación de Círculo 
+%% Coordenadas cartesianas
+
+% Valor del radio
+r=10 
+
+%Puntos
+p=50
+
+% Conversion de coordenadas
+% Cilindricas a rectangulares
+ang=linspace(0,2*pi,p);
+x=[];
+y=[];
+
+for i=1:p
+    x(i)=r*cos(ang(i));
+    y(i)=r*sin(ang(i));
+    plot(x,y)
+    xlim([-r,r])
+    ylim([-r,r])
+    hold on
+    pause(0.1)
+    pbaspect([1,1,1])
+end
+hold off
