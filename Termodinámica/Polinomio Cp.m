@@ -23,5 +23,5 @@ R=8.314;
 Q = R*integral;
 
 %% Salida de resultados
-fprintf("El valor calculado para el calor en J/mol es:")
-disp(double(Q))
+fprintf("El valor calculado para el calor es: ")
+fprintf("Q= %4.2f J/mol",Q)
