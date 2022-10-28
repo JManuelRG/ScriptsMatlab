@@ -1,5 +1,6 @@
 % Video explicación
-% https://www.youtube.com/watch?v=1RdNNYMjCCE
+% Planteamiento: https://www.youtube.com/watch?v=1RdNNYMjCCE
+% Solución: https://youtu.be/ow1hCtRQBFQ
 
 % Gráfico de la función
 
